@@ -19,7 +19,7 @@
                     <a class="nav-link me-2" href="#">Kontakt Oss</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link me-2" href="#">Om Oss</a>
+                    <a class="nav-link me-2" href="Omoss.php">Om Oss</a>
                 </li>
             </ul>
             <div class="d-flex">
@@ -133,7 +133,7 @@
                     <div class="text-center">
                     <button type="submit"class="btn btn-dark shadow-none">REGISTRER</button>
                     </div>
-                </div>
+                </div> 
             </form>
         </div>
     </div>
