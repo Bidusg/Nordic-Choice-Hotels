@@ -9,44 +9,44 @@
     <?php require('inc/links.php') ?>
     <style>
         :root{
-    --teal: #279e8c;
-    --teal_hover:#000;
-    }
-    *{
-        font-family: 'Poppins', sans-serif;
+        --teal: #279e8c;
+        --teal_hover:#000;
         }
-        .h-font{
-        font-family: 'Merienda', cursive;
-        }
-        input::-webkit-outer-spin-button,
-        input::-webkit-inner-spin-button {
-        -webkit-appearance: none;
-        margin: 0;
-        }
-        input[type=number] {
-        appearance: textfield;
+        *{
+            font-family: 'Poppins', sans-serif;
+            }
+            .h-font{
+            font-family: 'Merienda', cursive;
+            }
+            input::-webkit-outer-spin-button,
+            input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+            }
+            input[type=number] {
+            appearance: textfield;
 
-        }
-        .custom-bg{
-        background-color: var(--teal);
-        border: 1px solid var(--teal);
-        }
-        .custom-bg:hover{
-        background-color: var(--teal_hover);
-        border-color: var(--teal_hover);
-        }
-        .availability-form{
-            margin-top: -50px;
-            z-index: 2;
-            position:relative;
-        }
+            }
+            .custom-bg{
+            background-color: var(--teal);
+            border: 1px solid var(--teal);
+            }
+            .custom-bg:hover{
+            background-color: var(--teal_hover);
+            border-color: var(--teal_hover);
+            }
+            .availability-form{
+                margin-top: -50px;
+                z-index: 2;
+                position:relative;
+            }
 
-    @media screen and (max-width: 575px) {
-        .availability-form{
-            margin-top: 0px;
-            padding: 0 35px;
-        }
-    }
+            @media screen and (max-width: 575px) {
+                .availability-form{
+                    margin-top: 0px;
+                    padding: 0 35px;
+                }
+         }
     </style>
 </head>
     <body class="bg-light">
@@ -181,57 +181,13 @@
                                         Varme Pumpe
                                     </span>
                             </div>
-                            <div class="rating mb-4">
-                                <h6 class="mb-1">Rating</h6>
-                                <span class="badge round-pill bg-light">
-                                    <i class="bi bi-star-fill text-warning"></i>
-                                    <i class="bi bi-star-fill text-warning"></i>
-                                    <i class="bi bi-star-fill text-warning"></i>
-                                    <i class="bi bi-star-fill text-warning"></i>
-                                </span>
-                            </div>
-                            <div class="d-flex justify-content-evenly mb-2">
-                                <a href="#" class="btn btn-sm text-white custom-bg shadow-none">Book Now</a>
-                                <a href="#" class="btn btn-sm btn-outline-dark shadow-none">More Details</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 my-3">
-                    <div class="card border-0 shadow-none" style="max-width: 350px; margin: auto;">
-                    <img src="bilder/rooms/1.jpg" class="card-img-top" alt="">
-                        <div class="card-body">
-                            <h5>Simple Room Name</h5>
-                            <h6 class="mb-4">kr 849 per natt</h6>
-                            <div class="features mb-4">
-                                <h6 class="mb-1">Features</h6>
-                                <span class="badge rounded-pill bg-light text-dark text-wrap">
-                                    2 Soverom
-                                </span>
-                                <span class="badge rounded-pill bg-light text-dark text-wrap">
-                                    1 Bad
-                                </span>
-                                <span class="badge rounded-pill bg-light text-dark text-wrap">
-                                    1 Balkong
-                                </span>
-                                <span class="badge rounded-pill bg-light text-dark text-wrap">
-                                    3 Sofa
-                                </span>
-                            </div>
-                            <div class="facilities mb-4">
-                                <h6 class="mb-1">Facilities</h6>
+                            <div class="guests mb-4">
+                                <h6 class="mb-1">Gjester</h6>
                                     <span class="badge rounded-pill bg-light text-dark text-wrap">
-                                        Wifi
+                                        5 Voksne
                                     </span>
                                     <span class="badge rounded-pill bg-light text-dark text-wrap">
-                                        TV
-                                    </span>
-                                    <span class="badge rounded-pill bg-light text-dark text-wrap">
-                                        Air Conditioning
-                                    </span>
-                                    <span class="badge rounded-pill bg-light text-dark text-wrap">
-                                        Varme Pumpe
+                                        4 Barn
                                     </span>
                             </div>
                             <div class="rating mb-4">
@@ -285,6 +241,77 @@
                                     </span>
                                     <span class="badge rounded-pill bg-light text-dark text-wrap">
                                         Varme Pumpe
+                                    </span>
+                            </div>
+                            <div class="guests mb-4">
+                                <h6 class="mb-1">Gjester</h6>
+                                    <span class="badge rounded-pill bg-light text-dark text-wrap">
+                                        5 Voksne
+                                    </span>
+                                    <span class="badge rounded-pill bg-light text-dark text-wrap">
+                                        4 Barn
+                                    </span>
+                            </div>
+                            <div class="rating mb-4">
+                                <h6 class="mb-1">Rating</h6>
+                                <span class="badge round-pill bg-light">
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                    <i class="bi bi-star-fill text-warning"></i>
+                                </span>
+                            </div>
+                            <div class="d-flex justify-content-evenly mb-2">
+                                <a href="#" class="btn btn-sm text-white custom-bg shadow-none">Book Now</a>
+                                <a href="#" class="btn btn-sm btn-outline-dark shadow-none">More Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 my-3">
+                    <div class="card border-0 shadow-none" style="max-width: 350px; margin: auto;">
+                    <img src="bilder/rooms/1.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5>Simple Room Name</h5>
+                            <h6 class="mb-4">kr 849 per natt</h6>
+                            <div class="features mb-4">
+                                <h6 class="mb-1">Features</h6>
+                                <span class="badge rounded-pill bg-light text-dark text-wrap">
+                                    2 Soverom
+                                </span>
+                                <span class="badge rounded-pill bg-light text-dark text-wrap">
+                                    1 Bad
+                                </span>
+                                <span class="badge rounded-pill bg-light text-dark text-wrap">
+                                    1 Balkong
+                                </span>
+                                <span class="badge rounded-pill bg-light text-dark text-wrap">
+                                    3 Sofa
+                                </span>
+                            </div>
+                            <div class="facilities mb-4">
+                                <h6 class="mb-1">Facilities</h6>
+                                    <span class="badge rounded-pill bg-light text-dark text-wrap">
+                                        Wifi
+                                    </span>
+                                    <span class="badge rounded-pill bg-light text-dark text-wrap">
+                                        TV
+                                    </span>
+                                    <span class="badge rounded-pill bg-light text-dark text-wrap">
+                                        Air Conditioning
+                                    </span>
+                                    <span class="badge rounded-pill bg-light text-dark text-wrap">
+                                        Varme Pumpe
+                                    </span>
+                            </div>
+                            <div class="guests mb-4">
+                                <h6 class="mb-1">Gjester</h6>
+                                    <span class="badge rounded-pill bg-light text-dark text-wrap">
+                                        5 Voksne
+                                    </span>
+                                    <span class="badge rounded-pill bg-light text-dark text-wrap">
+                                        4 Barn
                                     </span>
                             </div>
                             <div class="rating mb-4">

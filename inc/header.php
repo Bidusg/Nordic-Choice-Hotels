@@ -10,13 +10,13 @@
                     <a class="nav-link active me-2" aria-current="page" href="index.php">Hjem</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link me-2" href="#">Rom</a>
+                    <a class="nav-link me-2" href="Rooms.php">Rom</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link me-2" href="fasiliteter.php">Fasiliteter</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link me-2" href="#">Kontakt Oss</a>
+                    <a class="nav-link me-2" href="Kontakt.php">Kontakt Oss</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link me-2" href="Omoss.php">Om Oss</a>
